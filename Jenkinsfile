@@ -1,7 +1,12 @@
 pipeline {
-  agent any
+  agent {
+    node {
+      label 'web-server'
+    }
+
+  }
   stages {
-    stage('') {
+    stage('error') {
       steps {
         sh 'cd muckitymuck.com'
       }
