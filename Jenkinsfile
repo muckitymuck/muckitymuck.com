@@ -1,14 +1,9 @@
 pipeline {
-  agent {
-    node {
-      label 'web-server'
-    }
-
-  }
+  agent any
   stages {
-    stage('git') {
+    stage('') {
       steps {
-        git(url: 'https://github.com/muckitymuck/muckitymuck.com.git', branch: 'main')
+        sh 'cd muckitymuck.com'
       }
     }
 
