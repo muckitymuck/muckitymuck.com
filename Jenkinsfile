@@ -12,5 +12,11 @@ pipeline {
       }
     }
 
+    stage('git pull') {
+      steps {
+        sh 'git pull '
+      }
+    }
+
   }
 }
