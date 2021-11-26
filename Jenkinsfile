@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('error') {
       steps {
-        sh 'cd muckitymuck.com'
+        sh 'cd /home/ubuntu/muckitymuck.com'
       }
     }
 
