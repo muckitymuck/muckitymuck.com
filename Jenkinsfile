@@ -20,7 +20,7 @@ pipeline {
 
     stage('cp') {
       steps {
-        sh 'cp -r /home/ubuntu/workspace/muckitymuck.com_main/. /var/www/muckitymuck.com/'
+        sh 'sudo cp -r /home/ubuntu/workspace/muckitymuck.com_main/. /var/www/muckitymuck.com/'
       }
     }
 
