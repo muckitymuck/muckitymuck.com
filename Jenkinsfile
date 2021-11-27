@@ -6,15 +6,27 @@ pipeline {
 
   }
   stages {
-    stage('error') {
+    stage('pwd') {
       steps {
-        sh 'cd /home/ubuntu/muckitymuck.com'
+        sh 'pwd'
       }
     }
 
-    stage('git pull') {
+    stage('ls') {
       steps {
-        sh 'git pull https://github.com/muckitymuck/muckitymuck.com.git'
+        sh 'ls'
+      }
+    }
+
+    stage('cp') {
+      steps {
+        sh 'sudo cp -r /home/ubuntu/workspace/muckitymuck.com_main/. /var/www/muckitymuck.com/'
+      }
+    }
+
+    stage('restart nginx') {
+      steps {
+        sh 'sudo systemctl restart nginx'
       }
     }
 
