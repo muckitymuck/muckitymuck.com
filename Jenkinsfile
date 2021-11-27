@@ -12,11 +12,5 @@ pipeline {
       }
     }
 
-    stage('git pull') {
-      steps {
-        sh 'git pull https://github.com/muckitymuck/muckitymuck.com.git'
-      }
-    }
-
   }
 }
