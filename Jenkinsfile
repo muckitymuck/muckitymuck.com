@@ -6,9 +6,15 @@ pipeline {
 
   }
   stages {
-    stage('error') {
+    stage('pwd') {
       steps {
-        sh 'cd /home/ubuntu/muckitymuck.com'
+        sh 'pwd'
+      }
+    }
+
+    stage('ls') {
+      steps {
+        sh 'ls'
       }
     }
 
