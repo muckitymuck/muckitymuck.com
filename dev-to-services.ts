@@ -3,7 +3,7 @@ import DevToArticleMeta from "interfaces/dev-to-article-meta";
 import superagent from "superagent";
 
 // setup API endpoints and queries
-const DEV_TO_USERNAME = "matjones"; // swap this for your username
+const DEV_TO_USERNAME = "muckitymuck"; // swap this for your username
 const ARTICLES_API = "https://dev.to/api/articles";
 
 // helper method to type responses
