@@ -225,7 +225,9 @@
             <!-- Interests-->
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
+                    <!-- REACT Module in DIV-->
                     <div dangerouslySetInnerHTML={{ __html: article.body_html }}/>
+                    <div id="dev_to_articles"></div></div>
                     <h2 class="mb-5">Interests</h2>
                     <p>I enjoy most of my time being with my family. When times are quiet, I enjoy researching latest news in Information Technology or just reading.</p>
                     <p class="mb-0"></p>
@@ -242,5 +244,11 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <!-- REACT DEV TO app-->
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+      
+        <!-- Load our React component. -->
+        <script src="dev_to_article.js"></script>
     </body>
 </html>\
