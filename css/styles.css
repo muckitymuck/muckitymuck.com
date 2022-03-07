@@ -10133,18 +10133,19 @@ p.lead {
   visibility: visible;
 }
 
-section.resume-section {
+/* section.resume-section {
   display: flex;
+  flex-direction: row;
   align-items: flex-start;
   padding-left: 1rem;
   padding-right: 0rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
   max-width: 75rem;
-}
-section.resume-section .resume-section-content {
+} */
+/* section.resume-section .resume-section-content {
   width: 100%;
-}
+} */
 
 @media (min-width: 768px) {
   section.resume-section {
@@ -10159,14 +10160,19 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
-.resume-section .containerportfolio {
+.containerportfolio {
+  display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
  
 
 }
 .resume-section  .containerportfolio  .cardportfolio {
-  margin: 0% 5% 5% 0%;
-   border: 2px solid #bd5d38;
+  height: 25rem;
+  margin: 0% 1rem 5% 0%;
+  border: 2px solid #bd5d38;
+
 
 }
