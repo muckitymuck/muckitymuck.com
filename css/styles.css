@@ -10095,6 +10095,7 @@ p.lead {
   border-radius: 100%;
   font-size: 1.5rem;
   margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 .social-icons .social-icon:last-child {
   margin-right: 0;
@@ -10174,5 +10175,11 @@ p.lead {
   margin: 0% 1rem 5% 0%;
   border: 2px solid #bd5d38;
 
+}
+.cardportfolio > .card-img-top {
+  height: 175px;
+}
 
+.cardportfolio > .btn-primary {
+  justify-content: center;
 }
