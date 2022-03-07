@@ -10135,9 +10135,9 @@ p.lead {
 
 section.resume-section {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   padding-left: 1rem;
-  padding-right: 1rem;
+  padding-right: 0rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
   max-width: 75rem;
@@ -10154,18 +10154,19 @@ section.resume-section .resume-section-content {
 @media (min-width: 992px) {
   section.resume-section {
     padding-left: 3rem;
-    padding-right: 3rem;
+    padding-right: 0rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
 }
 .resume-section .containerportfolio {
   flex-direction: row;
+  align-items: flex-end;
  
 
 }
-.resume-section .containerportfolio .cardportfolio {
-  margin: 0%;
+.resume-section  .containerportfolio  .cardportfolio {
+  margin: 0% 5% 5% 0%;
    border: 2px solid #bd5d38;
-   margin-bottom: 3rem;
+
 }
