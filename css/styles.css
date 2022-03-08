@@ -10166,8 +10166,8 @@ p.lead {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 5px;
- 
+  /* gap: 5px; */
+  flex-wrap: wrap;
 
 }
 .resume-section  .containerportfolio  .cardportfolio {
