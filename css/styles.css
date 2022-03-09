@@ -10154,7 +10154,7 @@ p.lead {
   }
 }
 @media (min-width: 992px) {
-  section.resume-section {
+  section.resume-section-content {
     padding-left: 3rem;
     padding-right: 0rem;
     padding-top: 5rem;
