@@ -4445,7 +4445,7 @@ input[type=button].btn-block {
 .card-img-top,
 .card-img-bottom {
   flex-shrink: 0;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .card-img,
@@ -10167,7 +10167,7 @@ p.lead {
   justify-content: center;
   align-items: center;
   /* gap: 5px; */
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 
 }
 .cardportfolio {
