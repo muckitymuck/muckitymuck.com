@@ -10161,7 +10161,7 @@ p.lead {
     padding-bottom: 5rem;
   }
 }
-section.resume-section .resume-section-content .containerportfolio {
+div.containerportfolio {
   display: flex;
   flex-direction: row;
   justify-content: center;
